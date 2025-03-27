@@ -6,6 +6,10 @@ MobileMallWebApi/MobileMallWebApi/bin/
 MobileMallWebApi/MobileMallWebApi/Logs/
 MobileMallWebApi/MobileMallWebApi/obj/
 MobileMallWebApi/MobileMallWebApi/StaticDataSource/
+MobileMallWebApi/MobileMallWebApi/.vs/
+
+MobileMallWebApi/MobileMallDB/bin/
+MobileMallWebApi/MobileMallDB/obj/
 
 # IDE 临时文件
 .vs/

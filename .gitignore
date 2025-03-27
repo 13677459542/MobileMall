@@ -1,0 +1,23 @@
+# 忽略 vue3 项目的 node_modules 文件夹
+MobileMall/node_modules/
+
+# 忽略 webapi 项目的 bin、Logs、obj 、文件夹
+MobileMallWebApi/MobileMallWebApi/bin/
+MobileMallWebApi/MobileMallWebApi/Logs/
+MobileMallWebApi/MobileMallWebApi/obj/
+MobileMallWebApi/MobileMallWebApi/StaticDataSource/
+
+# IDE 临时文件
+.vs/
+*.suo
+*.user
+
+# 编译生成文件
+obj/
+bin/
+Debug/
+Release/
+
+# 依赖项
+node_modules/
+packages/

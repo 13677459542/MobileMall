@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MobileMallDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4dc3c1be99d706469f2afee620b54fcbd60bfd0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11200dc05ca42b35936e3cb00208acfe3b84908d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MobileMallDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MobileMallDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,53 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\",
+  "WorkspaceRootPath": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemallwebapi\\mobilemallwebapi\\utils\\authorization\\aesencryptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemall-project\\mobilemallwebapi\\mobilemallwebapi\\utils\\authorization\\aesencryptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|solutionrelative:mobilemallwebapi\\utils\\authorization\\aesencryptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemallwebapi\\mobilemallwebapi\\utils\\authorization\\aesencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemall-project\\mobilemallwebapi\\mobilemallwebapi\\utils\\authorization\\aesencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|solutionrelative:mobilemallwebapi\\utils\\authorization\\aesencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemallwebapi\\mobilemallwebapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|solutionrelative:mobilemallwebapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemallwebapi\\mobilemallwebapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemall-project\\mobilemallwebapi\\mobilemallwebapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|solutionrelative:mobilemallwebapi\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemallwebapi\\mobilemallwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemall-project\\mobilemallwebapi\\mobilemallwebapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|solutionrelative:mobilemallwebapi\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemall-project\\mobilemallwebapi\\mobilemallwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|solutionrelative:mobilemallwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemallwebapi\\mobilemallwebapi\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemall-project\\mobilemallwebapi\\mobilemallwebapi\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|solutionrelative:mobilemallwebapi\\controllers\\authorizationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemallwebapi\\mobilemallwebapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemall-project\\mobilemallwebapi\\mobilemallwebapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|solutionrelative:mobilemallwebapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemallwebapi\\mobilemallwebapi\\controllers\\layoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemall-project\\mobilemallwebapi\\mobilemallwebapi\\controllers\\layoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|solutionrelative:mobilemallwebapi\\controllers\\layoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemallwebapi\\mobilemallwebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemall-project\\mobilemallwebapi\\mobilemallwebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|solutionrelative:mobilemallwebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AC0523A-B786-4C7D-859F-FA2B1FDBA984}|MobileMallDB\\MobileMallDB.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemallwebapi\\mobilemalldb\\businessservice\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9AC0523A-B786-4C7D-859F-FA2B1FDBA984}|MobileMallDB\\MobileMallDB.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemall-project\\mobilemallwebapi\\mobilemalldb\\businessservice\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9AC0523A-B786-4C7D-859F-FA2B1FDBA984}|MobileMallDB\\MobileMallDB.csproj|solutionrelative:mobilemalldb\\businessservice\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AC0523A-B786-4C7D-859F-FA2B1FDBA984}|MobileMallDB\\MobileMallDB.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemallwebapi\\mobilemalldb\\efdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9AC0523A-B786-4C7D-859F-FA2B1FDBA984}|MobileMallDB\\MobileMallDB.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemall-project\\mobilemallwebapi\\mobilemalldb\\efdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9AC0523A-B786-4C7D-859F-FA2B1FDBA984}|MobileMallDB\\MobileMallDB.csproj|solutionrelative:mobilemalldb\\efdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemallwebapi\\mobilemallwebapi\\apimodels\\resp\\userresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|d:\\\u8D44\u6E90\\\u6280\u672F\\program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\mobilemall-project\\mobilemallwebapi\\mobilemallwebapi\\apimodels\\resp\\userresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{565A4703-8B09-49CF-90E6-8E6CF1722066}|MobileMallWebApi\\MobileMallWebApi.csproj|solutionrelative:mobilemallwebapi\\apimodels\\resp\\userresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 15,
           "Children": [
             {
               "$type": "Bookmark",
@@ -79,10 +79,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
@@ -124,24 +120,23 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "AuthorizationController.cs",
-              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\AuthorizationController.cs",
+              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\AuthorizationController.cs",
               "RelativeDocumentMoniker": "MobileMallWebApi\\Controllers\\AuthorizationController.cs",
-              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\AuthorizationController.cs",
+              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\AuthorizationController.cs",
               "RelativeToolTip": "MobileMallWebApi\\Controllers\\AuthorizationController.cs",
               "ViewState": "AgIAAHQAAAAAAAAAAAAkwJYAAABuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-22T07:06:28.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T07:06:28.643Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AesEncryptionMiddleware.cs",
-              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\Utils\\Authorization\\AesEncryptionMiddleware.cs",
+              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\Utils\\Authorization\\AesEncryptionMiddleware.cs",
               "RelativeDocumentMoniker": "MobileMallWebApi\\Utils\\Authorization\\AesEncryptionMiddleware.cs",
-              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\Utils\\Authorization\\AesEncryptionMiddleware.cs",
+              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\Utils\\Authorization\\AesEncryptionMiddleware.cs",
               "RelativeToolTip": "MobileMallWebApi\\Utils\\Authorization\\AesEncryptionMiddleware.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAuwCoAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwEAAAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T06:25:44.202Z",
               "EditorCaption": ""
@@ -150,61 +145,58 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AesEncryption.cs",
-              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\Utils\\Authorization\\AesEncryption.cs",
+              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\Utils\\Authorization\\AesEncryption.cs",
               "RelativeDocumentMoniker": "MobileMallWebApi\\Utils\\Authorization\\AesEncryption.cs",
-              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\Utils\\Authorization\\AesEncryption.cs",
-              "RelativeToolTip": "MobileMallWebApi\\Utils\\Authorization\\AesEncryption.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAywDcAAAA4AAAAAAAAAA==",
+              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\Utils\\Authorization\\AesEncryption.cs*",
+              "RelativeToolTip": "MobileMallWebApi\\Utils\\Authorization\\AesEncryption.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-22T06:15:24.497Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\LoginController.cs",
+              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "MobileMallWebApi\\Controllers\\LoginController.cs",
-              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\LoginController.cs",
               "RelativeToolTip": "MobileMallWebApi\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAcwIUAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwEMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T02:44:25.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T02:44:25.501Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\OrderController.cs",
+              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "MobileMallWebApi\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\OrderController.cs",
               "RelativeToolTip": "MobileMallWebApi\\Controllers\\OrderController.cs",
               "ViewState": "AgIAAHEAAAAAAAAAAAAgwPQAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-20T03:39:16.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-20T03:39:16.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CartController.cs",
-              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\CartController.cs",
+              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "MobileMallWebApi\\Controllers\\CartController.cs",
-              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\CartController.cs",
               "RelativeToolTip": "MobileMallWebApi\\Controllers\\CartController.cs",
               "ViewState": "AgIAAHQAAAAAAAAAAAAgwIEAAAByAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T02:11:07.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T02:11:07.752Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "LayoutController.cs",
-              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\LayoutController.cs",
+              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\LayoutController.cs",
               "RelativeDocumentMoniker": "MobileMallWebApi\\Controllers\\LayoutController.cs",
-              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\LayoutController.cs",
+              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\LayoutController.cs",
               "RelativeToolTip": "MobileMallWebApi\\Controllers\\LayoutController.cs",
               "ViewState": "AgIAAH0AAAAAAAAAAAAgwJQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -214,9 +206,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "UserResp.cs",
-              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\ApiModels\\Resp\\UserResp.cs",
+              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\ApiModels\\Resp\\UserResp.cs",
               "RelativeDocumentMoniker": "MobileMallWebApi\\ApiModels\\Resp\\UserResp.cs",
-              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\ApiModels\\Resp\\UserResp.cs",
+              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\ApiModels\\Resp\\UserResp.cs",
               "RelativeToolTip": "MobileMallWebApi\\ApiModels\\Resp\\UserResp.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -226,9 +218,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\UserController.cs",
+              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "MobileMallWebApi\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\Controllers\\UserController.cs",
               "RelativeToolTip": "MobileMallWebApi\\Controllers\\UserController.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAADwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -238,9 +230,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "BaseService.cs",
-              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallDB\\BusinessService\\BaseService.cs",
+              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallDB\\BusinessService\\BaseService.cs",
               "RelativeDocumentMoniker": "MobileMallDB\\BusinessService\\BaseService.cs",
-              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallDB\\BusinessService\\BaseService.cs",
+              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallDB\\BusinessService\\BaseService.cs",
               "RelativeToolTip": "MobileMallDB\\BusinessService\\BaseService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAswA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -250,9 +242,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "EFDBContext.cs",
-              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallDB\\EFDBContext.cs",
+              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallDB\\EFDBContext.cs",
               "RelativeDocumentMoniker": "MobileMallDB\\EFDBContext.cs",
-              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallDB\\EFDBContext.cs",
+              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallDB\\EFDBContext.cs",
               "RelativeToolTip": "MobileMallDB\\EFDBContext.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAAwD0AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -262,14 +254,13 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\Program.cs",
+              "DocumentMoniker": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\Program.cs",
               "RelativeDocumentMoniker": "MobileMallWebApi\\Program.cs",
-              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMallWebApi\\MobileMallWebApi\\Program.cs",
+              "ToolTip": "D:\\\u8D44\u6E90\\\u6280\u672F\\Program\\\u624B\u673A\u5546\u57CE\u7F51\u7AD9\\MobileMall-Project\\MobileMallWebApi\\MobileMallWebApi\\Program.cs",
               "RelativeToolTip": "MobileMallWebApi\\Program.cs",
               "ViewState": "AgIAAHYAAAAAAAAAAADgv5YAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T03:20:34.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T03:20:34.991Z"
             }
           ]
         }

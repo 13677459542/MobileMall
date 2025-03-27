@@ -10,11 +10,11 @@ namespace MobileMallWebApi.Utils.Authorization
     public class AesEncryption
     {
         /// <summary>
-        /// 
+        /// 密钥(前端请求时需要使用非对称加密传输，避免密钥暴露)
         /// </summary>
         public static byte[] key = Encoding.UTF8.GetBytes("12345678123456781234567812345678");  //32位，自己可以定义
         /// <summary>
-        /// 
+        /// 初始化向量(随机或伪随机生成的值)
         /// </summary>
         public static byte[] iv = Encoding.UTF8.GetBytes("1234567812345678"); //16位，自己可以定义
 

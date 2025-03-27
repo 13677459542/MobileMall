@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\资源\\技术\\Program\\手机商城网站\\MobileMallWebApi\\MobileMallDB\\MobileMallDB.csproj": {}
+    "D:\\资源\\技术\\Program\\手机商城网站\\MobileMall-Project\\MobileMallWebApi\\MobileMallDB\\MobileMallDB.csproj": {}
   },
   "projects": {
-    "D:\\资源\\技术\\Program\\手机商城网站\\MobileMallWebApi\\MobileMallDB\\MobileMallDB.csproj": {
+    "D:\\资源\\技术\\Program\\手机商城网站\\MobileMall-Project\\MobileMallWebApi\\MobileMallDB\\MobileMallDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\资源\\技术\\Program\\手机商城网站\\MobileMallWebApi\\MobileMallDB\\MobileMallDB.csproj",
+        "projectUniqueName": "D:\\资源\\技术\\Program\\手机商城网站\\MobileMall-Project\\MobileMallWebApi\\MobileMallDB\\MobileMallDB.csproj",
         "projectName": "MobileMallDB",
-        "projectPath": "D:\\资源\\技术\\Program\\手机商城网站\\MobileMallWebApi\\MobileMallDB\\MobileMallDB.csproj",
+        "projectPath": "D:\\资源\\技术\\Program\\手机商城网站\\MobileMall-Project\\MobileMallWebApi\\MobileMallDB\\MobileMallDB.csproj",
         "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-        "outputPath": "D:\\资源\\技术\\Program\\手机商城网站\\MobileMallWebApi\\MobileMallDB\\obj\\",
+        "outputPath": "D:\\资源\\技术\\Program\\手机商城网站\\MobileMall-Project\\MobileMallWebApi\\MobileMallDB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

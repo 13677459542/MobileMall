@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MobileMallDB
-build_property.ProjectDir = D:\资源\技术\Program\手机商城网站\MobileMallWebApi\MobileMallDB\
+build_property.ProjectDir = D:\资源\技术\Program\手机商城网站\MobileMall-Project\MobileMallWebApi\MobileMallDB\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

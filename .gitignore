@@ -2,14 +2,17 @@
 MobileMall/node_modules/
 
 # 忽略 webapi 项目的 bin、Logs、obj 、文件夹
-MobileMallWebApi/MobileMallWebApi/bin/
-MobileMallWebApi/MobileMallWebApi/Logs/
-MobileMallWebApi/MobileMallWebApi/obj/
+MobileMallWebApi/**/bin/
+MobileMallWebApi/**/obj/
+MobileMallWebApi/**/Logs/
 MobileMallWebApi/MobileMallWebApi/StaticDataSource/
 MobileMallWebApi/MobileMallWebApi/.vs/
 
 MobileMallWebApi/MobileMallDB/bin/
 MobileMallWebApi/MobileMallDB/obj/
+
+# 全局忽略所有 .vs 目录
+**/.vs/
 
 # IDE 临时文件
 .vs/

@@ -19,7 +19,7 @@ namespace MobileMallWebApi.Utils.Authorization
         public static byte[] iv = Encoding.UTF8.GetBytes("1234567812345678"); //16位，自己可以定义
 
         /// <summary>
-        /// 加密
+        /// AES对称加密
         /// </summary>
         /// <param name="plainText"></param>
         /// <param name="Key"></param>
@@ -64,7 +64,7 @@ namespace MobileMallWebApi.Utils.Authorization
 
 
         /// <summary>
-        /// 解密
+        /// AES对称解密
         /// </summary>
         /// <param name="cipherText"></param>
         /// <param name="Key"></param>

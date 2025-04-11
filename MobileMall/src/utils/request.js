@@ -1,7 +1,7 @@
 import { useUserStore } from '@/stores'
 import axios from 'axios'
 import { showLoadingToast, showToast, closeToast } from 'vant'
-import { encrypt, decrypt, base64ToString } from './aesEncryption'
+import { encrypt, decrypt } from './aesEncryption'
 
 // 创建 axios 实例，将来对创建出来的实例，进行自定义配置
 // 好处：不会污染原始的 axios 实例
@@ -25,11 +25,17 @@ instance.interceptors.request.use(
       duration: 0, // 不会自动消失
     })
 
-    // 如果请求时有传入入参，需要进行AES加密后传出
+    // 对请求数据进行加密
+    const encryptedData = encrypt(config.data)
     if (config.data) {
       config.headers['Content-Type'] = 'application/json'
-      // 对请求数据进行加密
-      config.data = encrypt(config.data)
+    }
+    //赋值请求数据
+    config.data = `{"EncryptedData": "${encryptedData.EncryptedData}","KEY":"${encryptedData.KEY}","IV":"${encryptedData.IV}"}`
+    // 存储 Key 和 IV 到请求配置，供响应解密使用
+    config.metadata = {
+      key: encryptedData.KEY,
+      iv: encryptedData.IV,
     }
 
     // 只要有token，就在请求时携带，便于请求需要授权的接口
@@ -52,26 +58,27 @@ instance.interceptors.request.use(
 // 添加响应拦截器
 instance.interceptors.response.use(
   function (response) {
-    if (response.data) {
-      // 对响应数据进行解密
-      response.data = decrypt(response.data.EncryptedData)
-      // const IVstr = base64ToString(response.data.IV)
-      // console.log(IVstr)
-    }
     // 2xx 范围内的状态码都会触发该函数。
     // 对响应数据做点什么 (默认axios会多包装一层data，需要响应拦截器中处理一下)
-    const res = response.data
-    if (res.status !== 200) {
-      // 给错误提示, Toast 默认是单例模式，后面的 Toast调用了，会将前一个 Toast 效果覆盖
-      // 同时只能存在一个 Toast
-      showToast(res.message)
-      // 抛出一个错误的promise
-      return Promise.reject(res.message)
-    } else {
-      // 正确情况，直接走业务核心逻辑，清除loading效果
-      closeToast()
+    if (response.data) {
+      const { key, iv } = response.config.metadata // 从请求配置中获取 Key 和 IV
+      // 对响应数据进行解密
+      // response.data = decrypt(response.data.EncryptedData)
+      response.data = decrypt(response.data, key, iv)
+      console.log(response.data)
+      // const IVstr = base64ToString(response.data.IV)
+      if (response.data.status !== 200) {
+        // 给错误提示, Toast 默认是单例模式，后面的 Toast调用了，会将前一个 Toast 效果覆盖
+        // 同时只能存在一个 Toast
+        showToast(response.data.message)
+        // 抛出一个错误的promise
+        return Promise.reject(response.data.message)
+      } else {
+        // 正确情况，直接走业务核心逻辑，清除loading效果
+        closeToast()
+      }
     }
-    return res
+    return response.data
   },
   function (error) {
     // closeToast()

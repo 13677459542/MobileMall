@@ -1,30 +1,31 @@
-# 忽略 vue3 项目的 node_modules 文件夹
+# 通用编译/依赖项
+**/[Bb]in/
+**/[Oo]bj/
+**/[Dd]ebug/
+**/[Rr]elease/
+**/packages/
+
+# 全局忽略依赖项目录
+**/node_modules/
+**/packages/
+
+# 项目特定目录
 MobileMall/node_modules/
-
-# 忽略 webapi 项目的 bin、Logs、obj 、文件夹
-MobileMallWebApi/**/bin/
-MobileMallWebApi/**/obj/
 MobileMallWebApi/**/Logs/
-MobileMallWebApi/MobileMallWebApi/StaticDataSource/
-MobileMallWebApi/MobileMallWebApi/.vs/
+MobileMallWebApi/MobileMallWebApi/StaticDataSource
 
-MobileMallWebApi/MobileMallDB/bin/
-MobileMallWebApi/MobileMallDB/obj/
-
-# 全局忽略所有 .vs 目录
+# IDE配置
 **/.vs/
-
-# IDE 临时文件
-.vs/
+**/.vscode/
+**/.idea/
 *.suo
 *.user
+*.iml
 
-# 编译生成文件
-obj/
-bin/
-Debug/
-Release/
+# VSCode
+.vscode/
 
-# 依赖项
-node_modules/
-packages/
+# 日志和临时文件
+*.log
+*.tmp
+*.cache

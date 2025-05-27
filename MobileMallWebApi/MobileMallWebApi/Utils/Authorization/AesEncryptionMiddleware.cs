@@ -1,7 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MobileMallWebApi.ApiModels.Resp;
+using MobileMallWebApi.Utils.Encryption;
 using Newtonsoft.Json.Linq;
+using Org.BouncyCastle.Ocsp;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace MobileMallWebApi.Utils.Authorization
@@ -43,16 +46,28 @@ namespace MobileMallWebApi.Utils.Authorization
                         try
                         {
                             string BodyStr = (string)jsonObject["EncryptedData"];
-                            byte[] currentKey = Convert.FromHexString((string)jsonObject["KEY"]);
-                            byte[] currentIv = Convert.FromHexString((string)jsonObject["IV"]);
-                            if (!string.IsNullOrEmpty(BodyStr))
+                            // 使用示例
+                            if (TryGetHexBytes(jsonObject, "KEY", "IV", out byte[] currentKey, out byte[] currentIv))
                             {
-                                string decryptedBody = AesEncryption.DecryptStringFromBytes_Aes(BodyStr, currentKey, currentIv); // 使用您的解密逻辑
-                                context.Request.Body = new MemoryStream(Encoding.UTF8.GetBytes(decryptedBody)); // 将解密内容赋值给请求体
+                                //byte[] currentKey = Convert.FromHexString((string)jsonObject["KEY"]);
+                                //byte[] currentIv = Convert.FromHexString((string)jsonObject["IV"]);
+
+                                if (!string.IsNullOrEmpty(BodyStr))
+                                {
+                                    string decryptedBody = AesEncryption.DecryptStringFromBytes_Aes(BodyStr, currentKey, currentIv); // 使用您的解密逻辑
+                                    context.Request.Body = new MemoryStream(Encoding.UTF8.GetBytes(decryptedBody)); // 将解密内容赋值给请求体
+                                }
+                                // 存储到当前请求的上下文，供后续反参加密使用
+                                context.Items["AesKey"] = currentKey;
+                                context.Items["AesIv"] = currentIv;
                             }
-                            // 存储到当前请求的上下文，供后续反参加密使用
-                            context.Items["AesKey"] = currentKey;
-                            context.Items["AesIv"] = currentIv;
+                            else
+                            {
+                                context.Response.StatusCode = StatusCodes.Status400BadRequest; // 处理解密失败
+                                await context.Response.WriteAsync($"{{\"status\":400,\"message\":\"密钥有误，请检查!\"}}"); // 返回错误信息
+                                return; // 确保不继续处理请求
+                            }
+
                         }
                         catch (Exception ex)
                         {
@@ -96,10 +111,39 @@ namespace MobileMallWebApi.Utils.Authorization
                 {
                     context.Response.StatusCode = StatusCodes.Status500InternalServerError;
                     await context.Response.WriteAsync($"{{\"status\":500,\"message\":\"响应过程异常!{ex.Message}\"}}"); // 返回错误信息
-                    return; 
+                    return;
                 }
-                
+
             }
         }
+
+        /// <summary>
+        /// 检测传入的key和iv并使用RSA2进行解密
+        /// </summary>
+        /// <param name="json">json对象</param>
+        /// <param name="key">检测的键</param>
+        /// <param name="result">返回的字节数组</param>
+        /// <returns></returns>
+        private static bool TryGetHexBytes(JObject json, string key, string iv, out byte[] keyResult, out byte[] ivResult)
+        {
+            keyResult = null;
+            ivResult = null;
+            if (!json.TryGetValue(key, out JToken keytoken) || !json.TryGetValue(iv, out JToken ivtoken)) return false;
+            if (keytoken.Type != JTokenType.String || ivtoken.Type != JTokenType.String) return false;
+            try
+            {
+                var rsa = new RSAHelper(RSAType.RSA2, Encoding.UTF8);
+                string keyStr = rsa.Decrypt((string)keytoken);
+                string ivStr = rsa.Decrypt((string)ivtoken);
+                keyResult = Convert.FromHexString(keyStr);
+                ivResult = Convert.FromHexString(ivStr);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
     }
 }

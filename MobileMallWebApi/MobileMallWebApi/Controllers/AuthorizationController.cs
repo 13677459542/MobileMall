@@ -77,7 +77,7 @@ namespace MobileMallWebApi.Controllers
             }
         }
 
-        // <summary>
+        /// <summary>
         /// 数据签名
         /// </summary>
         /// <param name="req"></param>

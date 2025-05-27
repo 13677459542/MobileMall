@@ -2,6 +2,7 @@ import { useUserStore } from '@/stores'
 import axios from 'axios'
 import { showLoadingToast, showToast, closeToast } from 'vant'
 import { encrypt, decrypt } from './aesEncryption'
+import { rsaEncrypt } from './rsaEncryption'
 
 // 创建 axios 实例，将来对创建出来的实例，进行自定义配置
 // 好处：不会污染原始的 axios 实例
@@ -30,8 +31,9 @@ instance.interceptors.request.use(
     if (config.data) {
       config.headers['Content-Type'] = 'application/json'
     }
+    console.log(encryptedData.KEY, encryptedData.IV)
     //赋值请求数据
-    config.data = `{"EncryptedData": "${encryptedData.EncryptedData}","KEY":"${encryptedData.KEY}","IV":"${encryptedData.IV}"}`
+    config.data = `{"EncryptedData": "${encryptedData.EncryptedData}","KEY":"${rsaEncrypt(encryptedData.KEY)}","IV":"${rsaEncrypt(encryptedData.IV)}"}`
     // 存储 Key 和 IV 到请求配置，供响应解密使用
     config.metadata = {
       key: encryptedData.KEY,

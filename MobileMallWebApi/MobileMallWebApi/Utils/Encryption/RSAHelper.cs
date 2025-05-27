@@ -17,20 +17,33 @@ namespace MobileMallWebApi.Utils.Encryption
         private readonly Encoding _encoding;
 
         /// <summary>
+        /// 2048 公钥
+        /// </summary>
+        private readonly string defaultpublicKey = @"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3Pg+4SnPGW71Fm3tTxzzb0n1b41Pr1GuXvO4rA1VOX+SrVz+K8g98qyOF6RM2iOdaJBWat6IVjTuTLwVw+m2Q5aHlHSxkCX/RIBJNt9qIaOytbnn711ssecN00W+NFuiotLLeVP+ttSb28HGCXaGvNe1PFswDh0ZJMcMGY8JvC+h135nQNCQ0hG06vj0KzrmeIxRRNX1AQFIQz+7/hy/oJ/o0XJXrgGdH2e5e3Kox260G9QRruQZ4HGMrQ7VvaqeJ1v14qHLVI0ij3ycPeYJQ+tjXfjcheUppaTSuT2pdQRTY97nkPY//e3zXs4MKzlL3GAY+a3CfqjWRSjiOqTSywIDAQAB";
+        /// <summary>
+        ///  //2048 私钥
+        /// </summary>
+        private readonly string defaultprivateKey = @"MIIEowIBAAKCAQEA3Pg+4SnPGW71Fm3tTxzzb0n1b41Pr1GuXvO4rA1VOX+SrVz+K8g98qyOF6RM2iOdaJBWat6IVjTuTLwVw+m2Q5aHlHSxkCX/RIBJNt9qIaOytbnn711ssecN00W+NFuiotLLeVP+ttSb28HGCXaGvNe1PFswDh0ZJMcMGY8JvC+h135nQNCQ0hG06vj0KzrmeIxRRNX1AQFIQz+7/hy/oJ/o0XJXrgGdH2e5e3Kox260G9QRruQZ4HGMrQ7VvaqeJ1v14qHLVI0ij3ycPeYJQ+tjXfjcheUppaTSuT2pdQRTY97nkPY//e3zXs4MKzlL3GAY+a3CfqjWRSjiOqTSywIDAQABAoIBABGePsU3ztS5or5LEs9qq4OFY2r62rj2dkSz11brKTm7EOLUYJ+fs5tpuVqWiwTJhNTAIrkaonGH1DLiEYoxVDWcsZVbSIe0aon3qzQTfs7NJ9k9crSvFOo1AJvbxQfqVn6iTVQ7J4/u8Q5bK4MNpD3iT7JO7aHycqgasWhISKpsVo7gWRolMf6VXmFOkDFHh8B2Pkcb8yq0duhSvfsVcy1MJq/9dkRqRTiCCZmNZER5ceq/q6xdnEcfjawnZp08lYSVtTe0A2FclYwqPyvmoNDgpCu2nxgxhPFGq3cmzjsKgM5VMoxb51gniG+lQMDmY48OOlCpjw2eRf2UTfBNfiECgYEA71WwnTJ9zlaocx4yCcUYpUId/Z+V3TjAHmqkkDIBuBYdwzsmYoTuTpHDx3NA/NJRegpH720VA0WfeHhRfdqfiGCSbJ3qD7YIB2NCXopadBoqx9FvqVSnABxtfixCmFWipzsFw0k2wOpeJNDk6YcpQyBEu4S3Maj2Bhuk/s7t8ScCgYEA7FsvtY2XFJqJN84aQmV+gVwntZA86UXjaV3ZYErszQIERUMAudIavSOoai5C5KGtq0NxCW7A4bkCDVyIsCwMUmd0M6Be35wriWai2vVu3u/OE/yfqgHajf8DGd3vXyh9o12H5v8envN6Wh/CUGRZf/GEy1GhM+u2bNA8tcuzj70CgYEAnSQwICaEv7PaSitrQ0rr0aXFtz7O0T9vtQjkH+EVi97Jj+QIYetR5LiESTJ9WwJkiLKzZJrEjy9pc1ncd7vRv2NZAIP2qHYmc2NSsmw4075SlHwIyq9QLxx7L7qzxv2DHDX+pKgvkR7QzW9yvXoHN5G6TzzmY27CimQgQ0VuqUUCgYBMv7t5R9X0Uc4W+e0a/Fwc43Ddi03MLe6Pi3MHyqykUXBTkVNOA8S9ADQy7ny4Qyvivg6ZkoY9hdb9wbt9AYCqzX81OHE2ST716gcd9K6g49vWL6UlDl8K1vEJ2EBfdQV/I+L6hoNJ+CQV2dQ+SKerXSDS6NngwzzEjsX3/oJ7PQKBgE/gciY4CuViwM5UeRxZ+kLYPeNnJOnrCj/TthXFkmPxpa/KD9MaBZo8znHDcxRZX1Y/e7Q3yvUYwejOE9jYehieoVEa47WNbnQHFAJCRY6gnnBwro5eLwn4SSGY8+Wu2Dol2lfmAHhVlk0+Zugc3rvPpkF9sKEDzspb94AEtpam";
+
+        /// <summary>
         /// 实例化RSAHelper
         /// </summary>
         /// <param name="rsaType">加密算法类型 RSA SHA1;RSA2 SHA256 密钥长度至少为2048</param>
         /// <param name="encoding">编码类型</param>
         /// <param name="privateKey">私钥</param>
         /// <param name="publicKey">公钥</param>
-        public RSAHelper(RSAType rsaType, Encoding encoding, string privateKey, string publicKey = null)
+        public RSAHelper(RSAType rsaType, Encoding encoding, string privateKey = "", string publicKey = "")
         {
             _encoding = encoding;
             if (!string.IsNullOrEmpty(privateKey))
                 _privateKeyRsaProvider = CreateRsaProviderFromPrivateKey(privateKey);
+            else
+                _privateKeyRsaProvider = CreateRsaProviderFromPrivateKey(defaultprivateKey);
 
             if (!string.IsNullOrEmpty(publicKey))
                 _publicKeyRsaProvider = CreateRsaProviderFromPublicKey(publicKey);
+            else
+                _publicKeyRsaProvider = CreateRsaProviderFromPublicKey(defaultpublicKey);
 
             _hashAlgorithmName = rsaType == RSAType.RSA ? HashAlgorithmName.SHA1 : HashAlgorithmName.SHA256;
         }
